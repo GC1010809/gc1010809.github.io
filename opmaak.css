@@ -184,3 +184,19 @@ height: 300px;
 	.bestetestimg {
 			
 	 height: 150px;
+
+	}
+	.fruitimg {
+		border: 2px black solid;
+	 height: 300px;
+	}
+	.vlaaipakketimg {
+		
+		border: 2px black solid;
+		height: 300px;
+	}
+	vlaaipakket {
+			position: absolute;	 
+			right: 200px;
+			height: 0px;
+	}
