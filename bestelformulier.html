@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+<head>
+	<title>
+    	Vlaaien.nl
+	</title>
+		<link rel="stylesheet" type="text/css" href="opmaak.css">
+		<link rel="icon" type="image/x-icon" href="taart.png" >
+</head>
+<body>
+	<header>
+		 <br>
+		  <h1>Vlaaien.nl 
+	<div class="topnav">
+
+		<input type="text" placeholder="Search..">
+	</div>
+	</header>
+	<br>
+	<br>
+	<form action="index.html" method="post">
+
+  <div class="container">
+   
+   <label for="psw"><b>Postcode</b></label>
+      <input type="postcode" placeholder="Vul postcode in" name="post" required>
+		<br>
+    <label for="psw"><b>Adres</b></label>
+    <input type="adres" placeholder="Vul Adres in" name="adr" required>
+		<br>
+
+	  <label for="psw"><b>Huisnummer</b></label>
+      <input type="huisnummer" placeholder="Vul huisnummer in" name="huisnummer" required>
+		<br>
+	 <label for="psw"><b>Email</b></label>
+      <input type="Email" placeholder="Vul Email in" name="email" required>
+		<br><br>
+		Betaalmogelijkheden: <br>
+		 <input type="checkbox"  name="Mastercard"> Mastercard <br>
+				  <input type="checkbox"  name="Ideal"> Ideal <br>
+				   <input type="checkbox"  name="Paypal"> Paypal <br>
+				  <input type="checkbox"  name="Kortingsbon"> Kortingsbon    	  <label for="kortingsbon"><b>Code</b></label> <input type="code" placeholder="XXX-XXX-XXX-XXX" name="Code" required> <br>
+				   <br>
+				   Afhalen of Bezorgen: <br>
+				   <input type="checkbox"  name="Afhalen"> Afhalen <br>
+				   <input type="checkbox"  name="Bezorgen"> Bezorgen <br>
+		<br><br>
+   <a type="submit" href="Afgerondebestelling.html">Bestelling Afronden</a>
+    
+  </div>
+
+ 
+</form>
+</body>
+</html>
