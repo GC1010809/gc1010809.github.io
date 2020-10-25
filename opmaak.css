@@ -1,7 +1,7 @@
-body	{
+body{
 	background-color: #ccffff;
 		font-family: Comic sans MS;
-		font-size: 20px
+		font-size: 20px;
 }
 
 
@@ -206,4 +206,4 @@ height: 300px;
 		  display: inline-block;
 		  font-size: 16px;
 		  font-family: Comic sans MS;
- }
+}
